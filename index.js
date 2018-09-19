@@ -2,6 +2,6 @@
 document.querySelector("main").remove()
 /* Create your new element here and assign it to newHeader */
 const newHeader = document.createElement("h1")
-document.querySelector(newHeader).setAttribute("id","victory");
+newHeader.id("victory")
 document.body.appendChild(newHeader)
 newHeader.innerHTML="Anthimos is the champion"
