@@ -3,4 +3,4 @@ document.querySelector("main").remove()
 /* Create your new element here and assign it to newHeader */
 const newHeader = document.createElement("h1")
 newHeader.id = "victory"
-newHeader.innerHTML="Anthimos is the champion"
+newHeader.innerText="Anthimos is the champion"
