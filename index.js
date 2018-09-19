@@ -2,4 +2,4 @@
 document.querySelector("main").remove()
 /* Create your new element here and assign it to newHeader */
 const newHeader = null;
-document.querySelector("h1").add("Anthimos is the champion")
+document.querySelector("h1#victory").add("Anthimos is the champion")
